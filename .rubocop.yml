@@ -1,6 +1,7 @@
 AllCops:
   Exclude:
     - 'bin/**/*'
+    - 'vendor/**/*'
   DisplayCopNames: true
   TargetRubyVersion: 2.3.8
 
