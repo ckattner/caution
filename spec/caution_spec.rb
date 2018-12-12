@@ -11,7 +11,7 @@ describe Caution do
     specify "#{error_class} can be thrown" do
       tester = -> { raise error_class }
 
-      expect { tester.call }.not_to raise_error error_class
+      expect { tester.call }.to raise_error error_class
     end
   end
 end
