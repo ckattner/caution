@@ -1,5 +1,9 @@
 sudo: false
 language: ruby
 rvm:
-  - 2.3.8
+- 2.3.8
 before_install: gem install bundler -v 1.17.2
+notifications:
+  hipchat:
+    rooms:
+      secure: QAkfosLUyeazHpg215UKvMonOHMsV2QRxN7hPvrdhIujNme7xm1EU5sLjAf8NFS5qrLBK9qqZpUcR32dqM/uQ+Sodi9FjZ29Q2YpFGHxy5N+yHLo1bla7dW+Uj8soLh6Sd12nO45xDbQM5N5t+dZAfQPyewxr//PR5bmC/HuhW5tBcsRZX+lkp1YPs8h17u4lnNcf8g5EtBq0CdughBdgIjDJGiERx6OclyDh8HQ2BZhhFITsWs2/dDAOPRfSk6CcRVard47aybFnEFvOu21/r3J3UNN0dy1pf9o0L7qBOEoinm5UAbllEHq+EyYHVeNa5YnjX6m51k/X13D+2BzaiLZ06VS95v5Irj0mWJj+vUJ2WY0ED0ywyRf2F6VIJXzL8FXVz/mIFIvMmyinm1slv7G+6jFeJaHhm3HiYoAwBfbvYoT20cUxYl0Lsu3h0yLbt7YvxwoURCpCFAW/wl7gLIL3nD0lncHFTAScsL2QMbOe5eX/CBLR1TBe+5ZjNe1NsWyvPuWeS8V6fllg3ve1AIMRaI4PZXbjXqFusAGVttZ8a8P7YxachsXkVdYKGJ3Dr3EDXh2cYwxlG80XIWaHulVJPyC5RyX2U0qwdFuWaPUdDfH8rQ2o4YmakG69Zoy7cqbK/rukFHhCc9RA8yn4g2gqwVyGY/10eWH+LDGFrU=
