@@ -1,4 +1,4 @@
-# Caution
+# ⚠️ Caution ⚠️
 
 [![Build Status](https://travis-ci.org/bluemarblepayroll/caution.svg?branch=master)](https://travis-ci.org/bluemarblepayroll/caution)
 
