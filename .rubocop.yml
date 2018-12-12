@@ -1,0 +1,22 @@
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+  DisplayCopNames: true
+  TargetRubyVersion: 2.3.8
+
+Metrics/BlockLength:
+  Enabled: true
+  Exclude:
+    - spec/**/*_spec.rb
+
+Metrics/LineLength:
+  Max: 100
+
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
