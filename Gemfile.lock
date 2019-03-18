@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    caution (0.1.0)
+    caution (1.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -50,4 +50,4 @@ DEPENDENCIES
   rubocop
 
 BUNDLED WITH
-   1.17.2
+   1.17.3
